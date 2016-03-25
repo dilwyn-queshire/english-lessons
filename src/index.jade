@@ -1,0 +1,13 @@
+h1 English Lessons
+
+h2 Posts
+ul
+  each post in collections.posts
+    li
+      a(href="/data/entries/post/" + post.id + ".html")= post.title
+      
+h2 Authors
+ul
+    each author in collections.authors
+        li
+            a(href="/data/entries/author/" + author.id + ".html")= author.name
