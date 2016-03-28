@@ -5,5 +5,6 @@ block title
 block content
     article
         header
+            p= author.map(function(x) { return x.title; }).join(', ')
             h2= title
         != contents

@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/dilwyn-queshire/english-lessons#readme",
   "devDependencies": {
-    "contentful-metalsmith": "^0.1.0",
     "contentful-sync": "git+https://github.com/dilwyn-queshire/contentful-sync.git",
     "jade": "^1.11.0",
     "metalsmith": "^2.1.0",
