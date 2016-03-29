@@ -87,7 +87,7 @@ Metalsmith(__dirname)
         linksets: [
             {
                 match: {collection: 'posts'},
-                pattern: 'posts/:slug'
+                pattern: ':slug'
             },
             {
                 match: {collection: 'authors'},
